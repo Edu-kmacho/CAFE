@@ -52,31 +52,12 @@ body2 main{
 }
 
 body3 main u1{
-    background-color: #536d8871;
-    font-size: 45pt; 
+    border: 10px solid #000;
+    background-color: #456d99;
+    border-radius: 50px;
+    font-size: 40pt; 
     color: black;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
-}
-body3 main u2{
-    background-color: rgb(194, 55, 0);
-    font-size: 45pt; 
-    color: black;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
-}
-body3 main u3{
-    background-color: rgb(194, 55, 0);
-    font-size: 45pt; 
-    color: black;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
-}
-body3 main u4{
-    background-color: rgb(194, 55, 0);
-    font-size: 45pt; 
-    color: black;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: rgb(255, 255, 255);
 }
 
@@ -85,8 +66,6 @@ body3 main u4{
     flex-direction: row;
 }
 .articulo article{
-    width: 30vw;
-    display: flex;
     flex-direction: column;
     
     align-items: center;
@@ -100,3 +79,4 @@ footer h1{
 footer1 p{
     text-align: center;
 }
+
