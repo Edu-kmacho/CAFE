@@ -1,0 +1,32 @@
+body{
+    background-color: #536d88;
+    background-image: url(../static/morado.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 100% auto;
+    text-align: center;
+}
+body section h1{
+    background-image: url(../static/azul2.jpg);
+    height: 20vh;
+    text-align: center;
+    color: #000000;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    font-size:90px;
+}
+
+body section h1 a{
+    float: right;
+}
+
+body section h2 a{
+    float: left;
+}
+
+body section table{
+    background-color: aqua;
+    width: 180px;
+    height: 180px;
+}
