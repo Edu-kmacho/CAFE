@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, redirect, url_for
-import  as mysqlcon
+import mysql.connector as mysqlcon
 
 
 #Hola Erick, si esto funciona lloro
