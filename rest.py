@@ -54,9 +54,26 @@ def crud():
     else:
         return render_template('crud.html')
 
-@rest.route('/pedidos')
-def pedidos():
-    return render_template('pedidos.html')
+@rest.route('/tabla')
+def tabla():
+
+    sqls= 'SELECT * FROM usuarios'
+    mysql.execute(sqls)
+
+    result = mysql.fetchall()
+
+    contenidoTabla = []
+
+    for x in result:
+        contenidoTabla.append({'id_user':x[0],'id_Nombre':x[1],'id_Telefono':x[2],'id_Diereccion':x[3],'id_Telefono':x[4]})
+
+    if request.method == 'POST':
+        
+        getid = request.args.get('Nombres')
+        up_nombre = request.form['upd_Nombre']
+        up_telefono = request.form['upd_Telefono']
+        up_direccion = request.form['upd_Direccion']
+    return render_template('tabla.html')
 
 if  __name__ == '__main__':
     rest.run()
