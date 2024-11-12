@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for
 import mysql.connector as mysqlcon
 
 
-#Hola Erick, si esto funciona lloro
+#Hola Erick, si esto funciona lloro :(
 dbconect = mysqlcon.connect(host="localhost",user="root", password="",database="restaurante_ing")
 
 mysql = dbconect.cursor()
