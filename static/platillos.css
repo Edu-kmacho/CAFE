@@ -36,7 +36,7 @@ body section h2 b{
 }
 
 body section table{
-    margin: 10px 500px;
+    margin: 30px 500px;
 
     align-items: center;
     background-color: rgba(163, 74, 236, 0.24);
@@ -57,7 +57,8 @@ body section td a{
 }
 body a u{
     border: 10px solid #000;
-    background-color: #456d99;
+    padding: 10px;
+    background-color: #456e99b0;
     border-radius: 50px;
     font-size: 40pt; 
     color: black;
