@@ -8,6 +8,7 @@ body{
     text-align: center;
 
 }
+
 body main h1{
     background-image: url(../static/azul2.jpg);
     height: 20vh;
@@ -16,6 +17,7 @@ body main h1{
     -webkit-text-stroke-width: 5px;
     -webkit-text-stroke-color: rgb(255, 255, 255);
     font-size:90px;
+    
 }
 
 body  h1 a{
@@ -25,10 +27,23 @@ body  h1 a{
 body  h2 a{
     float: left;
 }
-
-body main table{
-    margin: 30px 500px;
+body main section{
+    margin: 30px 650px;
+}
+body main section table{
+    background-color: aliceblue;
     background-color: #46459975;
-    font-size:50px;
+    font-size:40px;
     border: 6px solid rgb(107, 0, 139);
+    border-style: dotted;
+}
+
+body main p a{
+    border: 5px solid #000;
+    background-color: #437fc08c;
+    border-radius: 35px;
+    font-size: 50px; 
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    -webkit-text-stroke-width: 2px;
 }
